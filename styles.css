@@ -6,7 +6,6 @@
 
 * {
   box-sizing: border-box;
-  font-size: 25px;
 }
 
 .container {
@@ -15,7 +14,6 @@
   width: 100%;
   max-width: 800px;
   margin: auto;
-  font-size: 25px;
 }
 
 h1 {
@@ -39,7 +37,7 @@ video {
   width: 100%;
 }
 .plyr--fullscreen-fallback .plyr__video-wrapper {
-  /*height: 100%;*/
+  display: contents;
 }
 @media screen and (max-width: 768px){
   .container {
