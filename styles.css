@@ -37,8 +37,8 @@ p span {
 video {
   width: 100%;
 }
-.plyr__video-wrapper {
-  height: 100%;
+.plyr--fullscreen-fallback .plyr__video-wrapper {
+  display: contents;
 }
 @media screen and (max-width: 768px){
   .container {
